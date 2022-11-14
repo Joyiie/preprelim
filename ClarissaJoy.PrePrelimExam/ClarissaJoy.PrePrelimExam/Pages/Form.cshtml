@@ -1,0 +1,40 @@
+﻿@page
+@model ClarissaJoy.PrePrelimExam.Pages.FormModel
+@{
+}
+<div class="card" style="width: 18rem;">
+    <h1>@Model.Data?.Weather?.FirstOrDefault()?.Main</h1>
+    <p>@Model.Data?.Weather?.FirstOrDefault()?.Description</p>
+    <ul>
+        <li>Title : @Model.Data?.Main?.Temp</li>
+        <li>Title : @Model.Data?.Main?.FeelsLike</li>
+        <li>Title : @Model.Data?.Main?.Humidity</li>
+        <li>Title : @Model.Data?.Main?.Pressure</li>
+    </ul>
+</div>
+
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Course">Abbreviation</label>
+        <input type="text" class="form-control" id="@Model.Course?.Abbreviation" placeholder="Abbreviation">
+    </div>
+    <div class="form-group">
+        <label asp-for="Course">Name</label>
+        <input type="text" class="form-control" id="@Model.Course?.Name" placeholder="Abbreviation">
+    </div>
+    <div class="form-group">
+        <label asp-for="Course">Number Of Years</label>
+        <input type="text" class="form-control" id="@Model.Course?.Numberofyears" placeholder="Abbreviation">
+    </div>
+    <div class="form-group">
+        <label asp-for="Course">Total Unit</label>
+        <input type="text" class="form-control" id="@Model.Course?.Totalunit" placeholder="Abbreviation">
+    </div>
+    <div class="form-group">
+        <label asp-for="Course">Date Of Effectivity</label>
+        <input type="text" class="form-control" id="@Model.Course?.DateOfEffectivity" placeholder="Abbreviation">
+    </div>
+    <button formmethod="post" type="submit" class="btn">Submit</button>
+</form>
+

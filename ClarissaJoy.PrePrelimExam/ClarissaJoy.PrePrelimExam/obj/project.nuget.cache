@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ej6LUweq3Q14wyUsx5C4Pg9WcK4wTwV4XyWmpMTha4NlQOpojJSaM7dNWF3r/kkaRpMchDUEOe5gaSf1Dp2g3Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\VGD pc 2\\Desktop\\joyflores\\ClarissaJoy.PrePrelimExam\\ClarissaJoy.PrePrelimExam\\ClarissaJoy.PrePrelimExam.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\VGD pc 2\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\VGD pc 2\\.nuget\\packages\\restsharp\\108.0.2\\restsharp.108.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
